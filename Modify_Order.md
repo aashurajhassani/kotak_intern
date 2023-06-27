@@ -8,6 +8,7 @@ client.modify_order(instrument_token = "", exchange_segment = "", product = "", 
 ````
 
 ## **Method 2 - Delayed method**
+This method verifies the order status first and then modifies the order if it is open.
 ```python
 client.modify_order(order_id = "", price = "", quantity = "", trigger_price = "", validity = "", order_type = "", amo = "")
 ````
