@@ -31,22 +31,22 @@ except Exception as e:
 ```
 ### Parameters
 
-| Name                 | Description                                                                                               | Type           |
-|----------------------|-----------------------------------------------------------------------------------------------------------|----------------|
-| *instrument_token*   | pSymbol in ScripMaster (first Column)                                                                     | Str [optional] |
-| *market_protection*  | String - (Default Value - 0)                                                                              | Str [optional] |
+| Name                 | Description                                                                                                              | Type           |
+|----------------------|--------------------------------------------------------------------------------------------------------------------------|----------------|
+| *instrument_token*   | pSymbol in ScripMaster (first Column)                                                                                    | Str [optional] |
+| *market_protection*  | String - (Default Value - 0)                                                                                             | Str [optional] |
 | *product*            | NRML - Normal<br/>CNC - Cash and Carry<br/>MIS - MIS<br/>INTRADAY - INTRADAY<br/>CO - Cover Order<br/>BO - Bracket Order | Str            |
-| *dd*                 | Default Value - “NA”                                                                                      | Str [optional] |
-| *disclosed_quantity* | (Default Value - 0)                                                                                       | Str            |
-| *filled_quantity*    | (Default Value - 0)                                                                                       | Str [optional] |
-| *validity*           | Validity of the order - DAY, IOC                                                                          | Str [optional] |
-| *trading_symbol*     |                                                                                                           | Str            |
-| *transaction_type*   | B(Buy), S(sell)                                                                                           | Str            |
-| *order_type*         | L - Limit, MKT Market, SL Stop loss limit, SL-M Stop loss market                                          | Str            |
-| *trigger_price*      | (Default Value - 0)                                                                                       | Str [optional] |
-| *quantity*           |                                                                                                           | Str            |
-| *order_id*           |                                                                                                           | Str            |
-| *exchange_segment*   | nse_cm - NSE<br/>bse_cm - BSE<br/>nse_fo - NFO<br/>bse_fo - BFO<br/>cde_fo - CDS<br/>bcs_fo - BCD         | Str [optional] |
+| *dd*                 | Default Value - “NA”                                                                                                     | Str [optional] |
+| *disclosed_quantity* | (Default Value - 0)                                                                                                      | Str            |
+| *filled_quantity*    | (Default Value - 0)                                                                                                      | Str [optional] |
+| *validity*           | Validity of the order - DAY, IOC                                                                                         | Str [optional] |
+| *trading_symbol*     |                                                                                                                          | Str            |
+| *transaction_type*   | B(Buy), S(sell)                                                                                                          | Str            |
+| *order_type*         | L - Limit<br/>MKT - Market<br/>SL - Stop loss limit<br/>SL-M - Stop loss market                                          | Str            |
+| *trigger_price*      | (Default Value - 0)                                                                                                      | Str [optional] |
+| *quantity*           |                                                                                                                          | Str            |
+| *order_id*           |                                                                                                                          | Str            |
+| *exchange_segment*   | nse_cm - NSE<br/>bse_cm - BSE<br/>nse_fo - NFO<br/>bse_fo - BFO<br/>cde_fo - CDS<br/>bcs_fo - BCD                        | Str [optional] |
 
 ### Return type
 
