@@ -1,7 +1,7 @@
 # neo_api_client.OrderApi
 
 # **place_new_order**
-> object place_order(exchange_segment='', product='', price='', order_type='', quantity='', validity='', trading_symbol='',transaction_type='', amo='NO', disclosed_quantity='0', market_protection='0', pf='N',trigger_price='0', tag=None)
+> object place_order(exchange_segment="", product="", price="", order_type="", quantity="", validity="", trading_symbol="",transaction_type="", amo="NO", disclosed_quantity="0", market_protection="0", pf="N",trigger_price="0", tag=None)
 
 Place a New order
 
@@ -13,15 +13,15 @@ from neo_api_client import NeoAPI
         
 #First initialize session and generate session token
 
-client = NeoAPI(consumer_key=" ",consumer_secret=" ",environment='')
+client = NeoAPI(consumer_key=" ",consumer_secret=" ",environment=" ")
 client.login(mobilenumber=" ", password=" ")
-client.session_2fa("")
+client.session_2fa(" ")
 
 try:
     # Place a Order
-    client.place_order(exchange_segment='', product='', price='', order_type='', quantity='', validity='', trading_symbol='',
-                       transaction_type='', amo='NO', disclosed_quantity="0", market_protection='0', pf='N',
-                       trigger_price='0', tag=None)
+    client.place_order(exchange_segment="", product="", price="", order_type="", quantity="", validity="", trading_symbol="",
+                       transaction_type="", amo="NO", disclosed_quantity="0", market_protection="0", pf="N",
+                       trigger_price="0", tag=None)
 except Exception as e:
     print("Exception when calling OrderApi->place_order: %s\n" % e)
 ``` 
