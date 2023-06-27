@@ -35,7 +35,7 @@ except Exception as e:
 |----------------------|-----------------------------------------------------------------------------------------------------------|----------------|
 | *instrument_token*   | pSymbol in ScripMaster (first Column)                                                                     | Str [optional] |
 | *market_protection*  | String - (Default Value - 0)                                                                              | Str [optional] |
-| *product*            | NRML - Normal, CNC - Cash and Carry, MIS - MIS, INTRADAY - INTRADAY, CO - Cover Order, BO - Bracket Order | Str            |
+| *product*            | NRML - Normal<br/>CNC - Cash and Carry<br/>MIS - MIS<br/>INTRADAY - INTRADAY<br/>CO - Cover Order<br/>BO - Bracket Order | Str            |
 | *dd*                 | Default Value - “NA”                                                                                      | Str [optional] |
 | *disclosed_quantity* | (Default Value - 0)                                                                                       | Str            |
 | *filled_quantity*    | (Default Value - 0)                                                                                       | Str [optional] |
