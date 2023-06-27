@@ -28,22 +28,22 @@ except Exception as e:
 
 ### Parameters
 
-| Name                 | Description                                                                                                    | Type           |
-|----------------------|----------------------------------------------------------------------------------------------------------------|----------------|
-| *amo*                | YES/NO - (Default Value - NO)                                                                                  | Str [optional] |
-| *disclosed_quantity* | (Default Value - 0)                                                                                            | Str [optional] |
-| *exchange_segment*   | nse_cm NSE bse_cm BSE nse_fo NFO bse_fo BFO cde_fo CDS bcs_fo BCD                                              | Str            |
-| *market_protection*  | (Default Value - 0)                                                                                            | Str [optional] |
-| *product*            | NRML - Normal, CNC - Cash and Carry, MIS - MIS, INTRADAY - INTRADAY, <br/>CO - Cover Order, BO - Bracket Order | Str            |
-| *pf*                 | Default Value - “N”                                                                                            | Str [optional] |
-| *price*              |                                                                                                                | Str [optional] |
-| *order_typ*          | L - Limit, MKT Market, SL Stop loss limit, SL-M Stop loss market                                               | Str            |
-| *quantity*           |                                                                                                                | Str            |
-| *validity*           | Validity of the order - DAY, IOC                                                                               | Str            |
-| *trigger_price*      |                                                                                                                | Str [optional] |
-| *trading_symbol*     |                                                                                                                | Str            |
-| *transaction_type*   | B(Buy), S(Sell)                                                                                                | Str            |
-| *tag*                | Tag for this order                                                                                             | Str [optional] |
+| Name                 | Description                                                                                                              | Type           |
+|----------------------|--------------------------------------------------------------------------------------------------------------------------|----------------|
+| *amo*                | YES/NO - (Default Value - NO)                                                                                            | Str [optional] |
+| *disclosed_quantity* | (Default Value - 0)                                                                                                      | Str [optional] |
+| *exchange_segment*   | nse_cm - NSE<br/>bse_cm - BSE<br/>nse_fo - NFO<br/>bse_fo - BFO<br/>cde_fo - CDS<br/>bcs_fo - BCD                        | Str            |
+| *market_protection*  | (Default Value - 0)                                                                                                      | Str [optional] |
+| *product*            | NRML - Normal<br/>CNC - Cash and Carry<br/>MIS - MIS<br/>INTRADAY - INTRADAY<br/>CO - Cover Order<br/>BO - Bracket Order | Str            |
+| *pf*                 | Default Value - “N”                                                                                                      | Str [optional] |
+| *price*              |                                                                                                                          | Str [optional] |
+| *order_type*         | L - Limit<br/>MKT - Market<br/>SL - Stop loss limit<br/>SL-M - Stop loss market                                          | Str            |
+| *quantity*           |                                                                                                                          | Str            |
+| *validity*           | Validity of the order - DAY, IOC                                                                                         | Str            |
+| *trigger_price*      |                                                                                                                          | Str [optional] |
+| *trading_symbol*     |                                                                                                                          | Str            |
+| *transaction_type*   | B(Buy), S(Sell)                                                                                                          | Str            |
+| *tag*                | Tag for this order                                                                                                       | Str [optional] |
 
 
 ### Return type
