@@ -1,7 +1,10 @@
 # **Margin_Required**
-> object margin_required(exchange_segment = "", price = "", order_type= "", product = "",   quantity = "", instrument_token = "",  transaction_type = "")
+Get required margin details
 
-Get margin_required details using the NEO API
+```python
+client.margin_required(exchange_segment = "", price = "", order_type= "", product = "", quantity = "", instrument_token = "",
+                       transaction_type = "")
+```
 
 ### Example
 
@@ -42,7 +45,7 @@ except Exception as e:
 
 ### Sample response
 
-```python
+```json
 {
     'data': 
                 {
