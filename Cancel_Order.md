@@ -7,8 +7,7 @@ Cancel an order
 client.cancel_order(order_id = "")
 
 # Method 2 (Delayed)
-This is delay type, if order id along with isVerify as True will be passed then check the status of the given order id and then proceed to further
-
+This is delay type, if order id along with isVerify as True will be passed then check the status of the given order id and then proceed to further<br/>
 client.cancel_order(order_id = "", isVerify="True")
 
 ### Example
