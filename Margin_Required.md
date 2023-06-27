@@ -13,7 +13,7 @@ from neo_api_client import NeoAPI
 
 #First initialize session and generate session token
 
-client = NeoAPI(consumer_key=" ",consumer_secret=" ",environment='')
+client = NeoAPI(consumer_key=" ",consumer_secret=" ",environment=" ")
 client.login(mobilenumber=" ", password=" ")
 client.session_2fa("")
 
@@ -47,19 +47,19 @@ except Exception as e:
 
 ```json
 {
-    'data': 
+    "data": 
                 {
-                    'avlCash': '104.96', 
-                    'insufFund': '12520.04', 
-                    'stat': 'Ok', 
-                    'totMrgnUsd': '12625.00', 
-                    'mrgnUsd': '0.00', 
-                    'reqdMrgn': '12625.00', 
-                    'avlMrgn': '104.96', 
-                    'stCode': 200, 
-                    'tid': 'server2_2330220', 
-                    'ordMrgn': '12625.00', 
-                    'rmsVldtd': 78
+                    "avlCash": "104.96", 
+                    "insufFund": "12520.04", 
+                    "stat": "Ok", 
+                    "totMrgnUsd": "12625.00", 
+                    "mrgnUsd": "0.00", 
+                    "reqdMrgn": "12625.00", 
+                    "avlMrgn": "104.96", 
+                    "stCode": 200, 
+                    "tid": "server2_2330220", 
+                    "ordMrgn": "12625.00", 
+                    "rmsVldtd": 78
                 }
 }
 ```
