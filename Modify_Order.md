@@ -1,13 +1,11 @@
 # **modify_order**
-> object modify_order(order_id, price , quantity , disclosed_quantity, trigger_price)
-
 Modify an existing order
 
 # **Method 1 Quick method** 
 client.modify_order(instrument_token = "", exchange_segment = "", product = "", price = "", order_type = "", quantity= "", validity = "", trading_symbol = "", transaction_type = "", order_id = "")
 
 # **Method 2 Delayed method**
-client.modify_order(order_id = "", price = "", quantity = "", disclosed_quantity = "", trigger_price = "", validity = "", order_type = "", amo = "")
+client.modify_order(order_id = "", price = "", quantity = "", trigger_price = "", validity = "", order_type = "", amo = "")
 
 ### Example
 
@@ -37,7 +35,6 @@ except Exception as e:
 | *market_protection*  | String - (Default Value - 0)                                                                                             | Str [optional] |
 | *product*            | NRML - Normal<br/>CNC - Cash and Carry<br/>MIS - MIS<br/>INTRADAY - INTRADAY<br/>CO - Cover Order<br/>BO - Bracket Order | Str            |
 | *dd*                 | Default Value - “NA”                                                                                                     | Str [optional] |
-| *disclosed_quantity* | (Default Value - 0)                                                                                                      | Str            |
 | *filled_quantity*    | (Default Value - 0)                                                                                                      | Str [optional] |
 | *validity*           | Validity of the order - DAY, IOC                                                                                         | Str [optional] |
 | *trading_symbol*     |                                                                                                                          | Str            |
@@ -54,7 +51,7 @@ except Exception as e:
 
 ### Sample response
 
-```python
+```json
 {
     "stat": "Ok",
     "nOrdNo": "220621000000097",
