@@ -2,11 +2,11 @@
 > object order_report()
 
 # Method 1
-Get all order details using order_report
+Get all order details using order_report<br/>
 client.order_report()
 
 # Method 2 
-Get particular details using order_history
+Get particular details using order_history<br/>
 client.order_history(order_id = "")
 
 ### Example
