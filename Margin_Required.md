@@ -22,18 +22,18 @@ except Exception as e:
 
 ### Parameters
 
-| Name               | Description                                                                                               | Type           |
-|--------------------|-----------------------------------------------------------------------------------------------------------|----------------|
-| *exchange_segment* | nse_cm - NSE<br/>bse_cm - BSE<br/>nse_fo - NFO<br/>bse_fo - BFO<br/>cde_fo - CDS<br/>bcs_fo - BCD         | Str            |
-| *price*            |                                                                                                           | Str            |
+| Name               | Description                                                                                                              | Type           |
+|--------------------|--------------------------------------------------------------------------------------------------------------------------|----------------|
+| *exchange_segment* | nse_cm - NSE<br/>bse_cm - BSE<br/>nse_fo - NFO<br/>bse_fo - BFO<br/>cde_fo - CDS<br/>bcs_fo - BCD                        | Str            |
+| *price*            |                                                                                                                          | Str            |
 | *product*          | NRML - Normal<br/>CNC - Cash and Carry<br/>MIS - MIS<br/>INTRADAY - INTRADAY<br/>CO - Cover Order<br/>BO - Bracket Order | Str            |
-| *order_type*       | L - Limit, MKT Market, SL Stop loss limit, SL-M Stop loss market                                          | Str            |
-| *quantity*         |                                                                                                           | Str            |
-| *instrument_token* | pSymbol in ScripMaster                                                                                    | Str            |
-| *transaction_type* | B(Buy), S(sell)                                                                                           | Str            |
-| *trading_symbol*   |                                                                                                           | Str            |
-| *transaction_type* | B(Buy), S(sell)                                                                                           | Str            |
-| *trigger_price*    |                                                                                                           | Str [Optional] |
+| *order_type*       | L - Limit<br/>MKT - Market<br/>SL - Stop loss limit<br/>SL-M - Stop loss market                                          | Str            |
+| *quantity*         |                                                                                                                          | Str            |
+| *instrument_token* | pSymbol in ScripMaster                                                                                                   | Str            |
+| *transaction_type* | B(Buy), S(sell)                                                                                                          | Str            |
+| *trading_symbol*   |                                                                                                                          | Str            |
+| *transaction_type* | B(Buy), S(sell)                                                                                                          | Str            |
+| *trigger_price*    |                                                                                                                          | Str [Optional] |
 
 
 ### Return type
