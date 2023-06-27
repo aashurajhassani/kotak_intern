@@ -24,7 +24,7 @@ except Exception as e:
 
 | Name               | Description                                                                                               | Type           |
 |--------------------|-----------------------------------------------------------------------------------------------------------|----------------|
-| *exchange_segment* | nse_cm NSE, bse_cm BSE, nse_fo NFO, bse_fo BFO, cde_fo CDS, bcs_fo BCD.                                   | Str            |
+| *exchange_segment* | nse_cm - NSE<br/>bse_cm - BSE<br/>nse_fo - NFO<br/>bse_fo - BFO<br/>cde_fo - CDS<br/>bcs_fo - BCD         | Str            |
 | *price*            |                                                                                                           | Str            |
 | *product*          | NRML - Normal, CNC - Cash and Carry, MIS - MIS, INTRADAY - INTRADAY, CO - Cover Order, BO - Bracket Order | Str            |
 | *order_type*       | L - Limit, MKT Market, SL Stop loss limit, SL-M Stop loss market                                          | Str            |
