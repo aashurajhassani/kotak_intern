@@ -46,7 +46,7 @@ except Exception as e:
 | *trigger_price*      | (Default Value - 0)                                                                                       | Str [optional] |
 | *quantity*           |                                                                                                           | Str            |
 | *order_id*           |                                                                                                           | Str            |
-| *exchange_segment*   | nse_cm NSE, bse_cm BSE, nse_fo NFO, bse_fo BFO, cde_fo CDS, bcs_fo BCD.                                   | Str [optional] |
+| *exchange_segment*   | nse_cm - NSE<br/>bse_cm - BSE<br/>nse_fo - NFO<br/>bse_fo - BFO<br/>cde_fo - CDS<br/>bcs_fo - BCD         | Str [optional] |
 
 ### Return type
 
