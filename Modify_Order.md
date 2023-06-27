@@ -1,11 +1,16 @@
-# **modify_order**
+# **Modify_Order**
 Modify an existing order
 
-# **Method 1 Quick method** 
-client.modify_order(instrument_token = "", exchange_segment = "", product = "", price = "", order_type = "", quantity= "", validity = "", trading_symbol = "", transaction_type = "", order_id = "")
+## **Method 1 - Quick method**
+```python
+client.modify_order(instrument_token = "", exchange_segment = "", product = "", price = "", order_type = "", quantity= "",
+                    validity = "", trading_symbol = "", transaction_type = "", order_id = "")
+````
 
-# **Method 2 Delayed method**
+## **Method 2 - Delayed method**
+```python
 client.modify_order(order_id = "", price = "", quantity = "", trigger_price = "", validity = "", order_type = "", amo = "")
+````
 
 ### Example
 
